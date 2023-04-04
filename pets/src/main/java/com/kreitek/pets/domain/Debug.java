@@ -1,6 +1,5 @@
 
 package com.kreitek.pets.domain;
-import java.util.Scanner;
 
 
 
@@ -17,10 +16,15 @@ public class Debug {
 		
 		
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Debug debug1=new Debug();
+		int contador = 0;
+		contador++;
+		
 		debug1.debug(debug);
+		System.out.print("[contador]" + contador);
 	}
 	
 
